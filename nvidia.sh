@@ -27,7 +27,8 @@ echo "=== [6/18] Installing NCCL ==="
 apt -y install libnccl2 libnccl-dev
 
 echo "=== [7/18] Installing NVIDIA Fabric Manager ==="
-apt -y install nvidia-fabricmanager-535
+apt -y install nvidia-driver-560
+apt -y install nvidia-fabricmanager-560
 systemctl enable nvidia-fabricmanager
 systemctl start nvidia-fabricmanager
 
