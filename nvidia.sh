@@ -21,7 +21,7 @@ echo "=== [4/18] Installing CUDA Toolkit ==="
 apt -y install cuda-toolkit-13-0
 
 echo "=== [5/18] Installing cuDNN ==="
-apt -y install libcudnn9 libcudnn9-dev
+apt -y install libcudnn9-cuda-13 libcudnn9-dev-cuda-13
 
 echo "=== [6/18] Installing NCCL ==="
 apt -y install libnccl2 libnccl-dev
